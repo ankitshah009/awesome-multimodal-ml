@@ -3,13 +3,25 @@ By [Paul Liang](http://www.cs.cmu.edu/~pliang/) (pliang@cs.cmu.edu), [Machine Le
 
 ## Recent Content
 
+[Social Intelligence in Humans and Robots](https://social-intelligence-human-ai.github.io/) @ ICRA 2021
+
+[LANTERN 2021](https://www.lantern.uni-saarland.de/2021/): The Third Workshop Beyond Vision and LANguage: inTEgrating Real-world kNowledge @ EACL 2021
+
+Multimodal workshops @ CVPR 2021: [MUltimodal Learning and Applications](https://mula-workshop.github.io/), [Sight and Sound](http://sightsound.org/), [Visual Question Answering](https://visualqa.org/workshop), [Embodied AI](https://embodied-ai.org/), [Language for 3D Scenes](http://language3dscenes.github.io/).
+
+Multimodal workshops @ NAACL 2021: [MAI-Workshop](http://multicomp.cs.cmu.edu/naacl2021multimodalworkshop/), [ALVR](https://alvr-workshop.github.io/).
+
+ICLR 2021 workshop on [Embodied Multimodal Learning](https://eml-workshop.github.io/).
+
+Microsoft Research's work on [VinVL](https://www.microsoft.com/en-us/research/blog/vinvl-advancing-the-state-of-the-art-for-vision-language-models/?OCID=msr_blog_VinVL_fb): [blog](https://www.microsoft.com/en-us/research/blog/vinvl-advancing-the-state-of-the-art-for-vision-language-models/?OCID=msr_blog_VinVL_fb), [paper](https://arxiv.org/pdf/2101.00529.pdf).
+
+OpenAI's work on [DALL·E](https://openai.com/blog/dall-e/) and CLIP: [blog](https://openai.com/blog/clip/), [paper](https://cdn.openai.com/papers/Learning_Transferable_Visual_Models_From_Natural_Language.pdf), and [code](https://github.com/openai/CLIP).
+
 Follow our course [11-777 Multimodal Machine Learning](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/), Fall 2020 @ CMU.
 
 NeurIPS 2020 workshop on [Wordplay: When Language Meets Games](https://wordplay-workshop.github.io/).
 
-Our [ACL 2020 workshop on Multimodal Language](http://multicomp.cs.cmu.edu/acl2020multimodalworkshop/) and [proceedings](https://www.aclweb.org/anthology/volumes/2020.challengehml-1/).
-
-ACL 2020 workshop on [Advances in Language and Vision Research](https://alvr-workshop.github.io/).
+ACL 2020 workshops on [Multimodal Language](http://multicomp.cs.cmu.edu/acl2020multimodalworkshop/) [(proceedings)](https://www.aclweb.org/anthology/volumes/2020.challengehml-1/) and [Advances in Language and Vision Research](https://alvr-workshop.github.io/).
 
 Multimodal workshops @ ECCV 2020: [EVAL](https://askforalfred.com/EVAL/), [CAMP](https://camp-workshop.stanford.edu/), and [MVA](https://sites.google.com/view/multimodalvideo-v2).
 
@@ -31,6 +43,7 @@ Multimodal workshops @ ECCV 2020: [EVAL](https://askforalfred.com/EVAL/), [CAMP]
   * [Adversarial Attacks](#adversarial-attacks)
   * [Few-Shot Learning](#few-shot-learning)
   * [Bias and Fairness](#bias-and-fairness)
+  * [Human in the Loop Learning](#human-in-the-loop-learning)
 * [Applications and Datasets](#applications-and-datasets)
   * [Language and Visual QA](#language-and-visual-qa)
   * [Language Grounding in Vision](#language-grounding-in-vision)
@@ -47,6 +60,9 @@ Multimodal workshops @ ECCV 2020: [EVAL](https://askforalfred.com/EVAL/), [CAMP]
   * [Affect Recognition and Multimodal Language](#affect-recognition-and-multimodal-language)
   * [Healthcare](#healthcare)
   * [Robotics](#robotics)
+  * [Autonomous Driving](#Autonomous-Driving)
+  * [Finance](#Finance)
+  * [Human AI Interaction](#Human-AI-Interaction)
 * [Workshops](#workshops)
 * [Tutorials](#tutorials)
 * [Courses](#courses)
@@ -56,25 +72,33 @@ Multimodal workshops @ ECCV 2020: [EVAL](https://askforalfred.com/EVAL/), [CAMP]
 
 ## Survey Papers
 
-[Experience Grounds Language](https://arxiv.org/abs/2004.10151), arXiv 2020
+[Experience Grounds Language](https://arxiv.org/abs/2004.10151), EMNLP 2020
+
+[A Survey of Reinforcement Learning Informed by Natural Language](https://arxiv.org/abs/1906.03926), IJCAI 2019
+
+[Multimodal Machine Learning: A Survey and Taxonomy](https://arxiv.org/abs/1705.09406), TPAMI 2019
 
 [Multimodal Intelligence: Representation Learning, Information Fusion, and Applications](https://arxiv.org/abs/1911.03977), arXiv 2019
 
 [Trends in Integration of Vision and Language Research: A Survey of Tasks, Datasets, and Methods](https://arxiv.org/abs/1907.09358), arXiv 2019
 
-[Deep Multimodal Representation Learning: A Survey](https://ieeexplore.ieee.org/abstract/document/8715409), arXiv 2019 
-
-[Multimodal Machine Learning: A Survey and Taxonomy](https://arxiv.org/abs/1705.09406), TPAMI 2018
+[Deep Multimodal Representation Learning: A Survey](https://ieeexplore.ieee.org/abstract/document/8715409), arXiv 2019
 
 [Guest Editorial: Image and Language Understanding](https://link.springer.com/article/10.1007/s11263-017-0993-y), IJCV 2017
 
 [Representation Learning: A Review and New Perspectives](https://arxiv.org/abs/1206.5538), TPAMI 2013
 
+[A Survey of Socially Interactive Robots](https://www.cs.cmu.edu/~illah/PAPERS/socialroboticssurvey.pdf), 2003
+
 ## Core Areas
 
 ### Representation Learning
 
+[Learning Transferable Visual Models From Natural Language Supervision](https://cdn.openai.com/papers/Learning_Transferable_Visual_Models_From_Natural_Language.pdf), arXiv 2020 [[blog]](https://openai.com/blog/clip/) [[code]](https://github.com/openai/CLIP)
+
 [Large-Scale Adversarial Training for Vision-and-Language Representation Learning](https://arxiv.org/abs/2006.06195), NeurIPS 2020 [[code]](https://github.com/zhegan27/VILLA)
+
+[Vokenization: Improving Language Understanding with Contextualized, Visual-Grounded Supervision](https://arxiv.org/abs/2010.06775), EMNLP 2020 [[code]](https://github.com/airsplay/vokenization)
 
 [Integrating Multimodal Information in Large Pretrained Transformers](https://arxiv.org/abs/1908.05787), ACL 2020
 
@@ -136,6 +160,8 @@ Multimodal workshops @ ECCV 2020: [EVAL](https://askforalfred.com/EVAL/), [CAMP]
 
 ### Multimodal Fusion
 
+[Deep-HOSeq: Deep Higher-Order Sequence Fusion for Multimodal Sentiment Analysis](https://arxiv.org/pdf/2010.08218.pdf), ICDM 2020 
+
 [Removing Bias in Multi-modal Classifiers: Regularization by Maximizing Functional Entropies](https://arxiv.org/abs/2010.10802), NeurIPS 2020 [[code]](https://github.com/itaigat/removing-bias-in-multi-modal-classifiers)
 
 [Deep Multimodal Fusion by Channel Exchanging](https://arxiv.org/abs/2011.05005?context=cs.LG), NeurIPS 2020 [[code]](https://github.com/yikaiw/CEN)
@@ -143,6 +169,8 @@ Multimodal workshops @ ECCV 2020: [EVAL](https://askforalfred.com/EVAL/), [CAMP]
 [What Makes Training Multi-Modal Classification Networks Hard?](https://arxiv.org/abs/1905.12681), CVPR 2020
 
 [Dynamic Fusion for Multimodal Data](https://arxiv.org/abs/1911.03821), arXiv 2019
+
+[DeepCU: Integrating Both Common and Unique Latent Information for Multimodal Sentiment Analysis](https://www.ijcai.org/proceedings/2019/503), IJCAI 2019 [[code]](https://github.com/sverma88/DeepCU-IJCAI19)
 
 [Deep Multimodal Multilinear Fusion with High-order Polynomial Pooling](https://papers.nips.cc/paper/9381-deep-multimodal-multilinear-fusion-with-high-order-polynomial-pooling), NeurIPS 2019
 
@@ -302,9 +330,23 @@ Multimodal workshops @ ECCV 2020: [EVAL](https://askforalfred.com/EVAL/), [CAMP]
 
 [Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](https://arxiv.org/abs/1607.06520), NeurIPS 2016
 
+### Human in the Loop Learning
+
+[Human in the Loop Dialogue Systems](https://sites.google.com/view/hlds-2020/home), NeurIPS 2020 workshop
+
+[Human And Machine in-the-Loop Evaluation and Learning Strategies](https://hamlets-workshop.github.io/), NeurIPS 2020 workshop
+
+[Human-centric dialog training via offline reinforcement learning](https://arxiv.org/abs/2010.05848), EMNLP 2020 [[code]](https://github.com/natashamjaques/neural_chat/tree/master/BatchRL)
+
+[Human-In-The-Loop Machine Learning with Intelligent Multimodal Interfaces](https://csjzhou.github.io/homepage/papers/ICML2017_Syed.pdf), ICML 2017 workshop
+
 ## Applications and Datasets
 
 ### Language and Visual QA
+
+[MultiModalQA: complex question answering over text, tables and images](https://openreview.net/forum?id=ee6W5UgQLa), ICLR 2021
+
+[ManyModalQA: Modality Disambiguation and QA over Diverse Inputs](https://arxiv.org/abs/2001.08034), AAAI 2020 [[code]](https://github.com/hannandarryl/ManyModalQA)
 
 [Iterative Answer Prediction with Pointer-Augmented Multimodal Transformers for TextVQA](https://arxiv.org/abs/1911.06258), CVPR 2020
 
@@ -355,8 +397,6 @@ Multimodal workshops @ ECCV 2020: [EVAL](https://askforalfred.com/EVAL/), [CAMP]
 ### Language Grounding in Vision
 
 [The Hateful Memes Challenge: Detecting Hate Speech in Multimodal Memes](https://arxiv.org/abs/2005.04790), NeurIPS 2020 [[code]](https://ai.facebook.com/blog/hateful-memes-challenge-and-data-set/)
-
-[Grounded Language Learning Fast and Slow](https://arxiv.org/abs/2009.01719), arXiv 2020
 
 [What Does BERT with Vision Look At?](https://www.aclweb.org/anthology/2020.acl-main.469/), ACL 2020
 
@@ -525,6 +565,10 @@ Multimodal workshops @ ECCV 2020: [EVAL](https://askforalfred.com/EVAL/), [CAMP]
 [CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge](https://arxiv.org/abs/1811.00937), NAACL 2019
 
 ### Multimodal Reinforcement Learning
+
+[Imitating Interactive Intelligence](https://arxiv.org/abs/2012.05672), arXiv 2020
+
+[Grounded Language Learning Fast and Slow](https://arxiv.org/abs/2009.01719), ICLR 2021
 
 [RTFM: Generalising to Novel Environment Dynamics via Reading](https://arxiv.org/abs/1910.08210), ICLR 2020 [[code]](https://github.com/facebookresearch/RTFM)
 
@@ -720,6 +764,8 @@ Multimodal workshops @ ECCV 2020: [EVAL](https://askforalfred.com/EVAL/), [CAMP]
 
 ### Robotics
 
+[Detect, Reject, Correct: Crossmodal Compensation of Corrupted Sensors](https://arxiv.org/abs/2012.00201), 2020
+
 [Concept2Robot: Learning Manipulation Concepts from Instructions and Human Demonstrations](http://www.roboticsproceedings.org/rss16/p082.pdf), RSS 2020
 
 [See, Feel, Act: Hierarchical Learning for Complex Manipulation Skills with Multi-sensory Fusion](https://robotics.sciencemag.org/content/4/26/eaav3123), Science Robotics 2019 
@@ -744,6 +790,30 @@ Multimodal workshops @ ECCV 2020: [EVAL](https://askforalfred.com/EVAL/), [CAMP]
 [Multi-Modal Scene Understanding for Robotic Grasping](http://kth.diva-portal.org/smash/get/diva2:459199/FULLTEXT01), 2011
 
 [Strategies for Multi-Modal Scene Exploration](https://am.is.tuebingen.mpg.de/uploads_file/attachment/attachment/307/2010_IROS_bjbk_camred.pdf), IROS 2010
+
+### Autonomous Driving
+
+[Deep Multi-modal Object Detection and Semantic Segmentation for Autonomous Driving: Datasets, Methods, and Challenges](https://arxiv.org/pdf/1902.07830.pdf), IEEE TITS 2020 [[website]](https://boschresearch.github.io/multimodalperception/) 
+
+[nuScenes: A multimodal dataset for autonomous driving](https://openaccess.thecvf.com/content_CVPR_2020/papers/Caesar_nuScenes_A_Multimodal_Dataset_for_Autonomous_Driving_CVPR_2020_paper.pdf), CVPR 2020 [[dataset]](https://www.nuscenes.org/)
+
+[Multimodal End-to-End Autonomous Driving](https://arxiv.org/abs/1906.03199), arXiv 2020
+
+### Finance
+
+[A Multimodal Event-driven LSTM Model for Stock Prediction Using Online News](https://ailab-ua.github.io/courses/resources/Qing_TKDE_2020.pdf), TKDE 2020
+
+[Multimodal Deep Learning for Finance: Integrating and Forecasting International Stock Markets](https://arxiv.org/abs/1903.06478), 2019
+
+[Multimodal deep learning for short-term stock volatility prediction](https://arxiv.org/abs/1812.10479), 2018
+
+### Human AI Interaction
+
+[Multimodal Human Computer Interaction: A Survey](https://link.springer.com/chapter/10.1007/11573425_1), HCI 2005
+
+[Affective multimodal human-computer interaction](https://dl.acm.org/doi/10.1145/1101149.1101299), Multimedia 2005
+
+[Building a multimodal human-robot interface](https://ieeexplore.ieee.org/abstract/document/1183338?casa_token=tdKeY0Q0e-4AAAAA:XfKwp5Di1O5bCEOnebeaS58waSbWm80lxNuY8IhWW7DqDLvRQj-8ettJW1NrFrmoR_ShudTgzw), IEEE Intelligent Systems 2001
 
 # Workshops
 
@@ -819,7 +889,12 @@ Multimodal workshops @ ECCV 2020: [EVAL](https://askforalfred.com/EVAL/), [CAMP]
 [Vision and Language: Bridging Vision and Language with Deep Learning](https://www.microsoft.com/en-us/research/publication/vision-language-bridging-vision-language-deep-learning/), ICIP 2017
 
 # Courses
+
+[CMU 05-618, Human-AI Interaction](https://haiicmu.github.io/)
+
 [CMU 11-777, Advanced Multimodal Machine Learning](https://piazza.com/cmu/fall2018/11777/resources)
+
+[Stanford CS422: Interactive and Embodied Learning](http://cs422interactive.stanford.edu/)
 
 [CMU 16-785, Integrated Intelligence in Robotics: Vision, Language, and Planning](http://www.cs.cmu.edu/~jeanoh/16-785/)
 
