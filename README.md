@@ -7,9 +7,9 @@ By [Paul Liang](http://www.cs.cmu.edu/~pliang/) (pliang@cs.cmu.edu), [Machine Le
 
 [LANTERN 2021](https://www.lantern.uni-saarland.de/2021/): The Third Workshop Beyond Vision and LANguage: inTEgrating Real-world kNowledge @ EACL 2021
 
-Multimodal workshops @ CVPR 2021: [MUltimodal Learning and Applications](https://mula-workshop.github.io/), [Sight and Sound](http://sightsound.org/), [Visual Question Answering](https://visualqa.org/workshop), [Embodied AI](https://embodied-ai.org/), [Language for 3D Scenes](http://language3dscenes.github.io/).
+Multimodal workshops @ CVPR 2021: [Multimodal Learning and Applications](https://mula-workshop.github.io/), [Sight and Sound](http://sightsound.org/), [Visual Question Answering](https://visualqa.org/workshop), [Embodied AI](https://embodied-ai.org/), [Language for 3D Scenes](http://language3dscenes.github.io/).
 
-Multimodal workshops @ NAACL 2021: [MAI-Workshop](http://multicomp.cs.cmu.edu/naacl2021multimodalworkshop/), [ALVR](https://alvr-workshop.github.io/).
+Multimodal workshops @ NAACL 2021: [MAI-Workshop](http://multicomp.cs.cmu.edu/naacl2021multimodalworkshop/), [ALVR](https://alvr-workshop.github.io/), [ViGIL](https://vigilworkshop.github.io/).
 
 ICLR 2021 workshop on [Embodied Multimodal Learning](https://eml-workshop.github.io/).
 
@@ -34,6 +34,7 @@ Multimodal workshops @ ECCV 2020: [EVAL](https://askforalfred.com/EVAL/), [CAMP]
   * [Multimodal Alignment](#multimodal-alignment)
   * [Multimodal Translation](#multimodal-translation)
   * [Missing or Imperfect Modalities](#missing-or-imperfect-modalities)
+  * [Analysis of Multimodal Models](#analysis-of-multimodal-models)
   * [Knowledge Graphs and Knowledge Bases](#knowledge-graphs-and-knowledge-bases)
   * [Intepretable Learning](#intepretable-learning)
   * [Generative Learning](#generative-learning)
@@ -93,6 +94,8 @@ Multimodal workshops @ ECCV 2020: [EVAL](https://askforalfred.com/EVAL/), [CAMP]
 ## Core Areas
 
 ### Representation Learning
+
+[Transformer is All You Need: Multimodal Multitask Learning with a Unified Transformer](https://arxiv.org/abs/2102.10772), arXiv 2021
 
 [Learning Transferable Visual Models From Natural Language Supervision](https://cdn.openai.com/papers/Learning_Transferable_Visual_Models_From_Natural_Language.pdf), arXiv 2020 [[blog]](https://openai.com/blog/clip/) [[code]](https://github.com/openai/CLIP)
 
@@ -160,6 +163,8 @@ Multimodal workshops @ ECCV 2020: [EVAL](https://askforalfred.com/EVAL/), [CAMP]
 
 ### Multimodal Fusion
 
+[Trusted Multi-View Classification](https://openreview.net/forum?id=OOsR8BzCnl5), ICLR 2021 [[code]](https://github.com/hanmenghan/TMC)
+
 [Deep-HOSeq: Deep Higher-Order Sequence Fusion for Multimodal Sentiment Analysis](https://arxiv.org/pdf/2010.08218.pdf), ICDM 2020 
 
 [Removing Bias in Multi-modal Classifiers: Regularization by Maximizing Functional Entropies](https://arxiv.org/abs/2010.10802), NeurIPS 2020 [[code]](https://github.com/itaigat/removing-bias-in-multi-modal-classifiers)
@@ -222,11 +227,25 @@ Multimodal workshops @ ECCV 2020: [EVAL](https://askforalfred.com/EVAL/), [CAMP]
 
 ### Missing or Imperfect Modalities
 
+[A Variational Information Bottleneck Approach to Multi-Omics Data Integration](https://arxiv.org/abs/2102.03014), AISTATS 2021 [[code]](https://github.com/chl8856/DeepIMV)
+
+[SMIL: Multimodal Learning with Severely Missing Modality](https://arxiv.org/abs/2103.05677), AAAI 2021
+
 [Factorized Inference in Deep Markov Models for Incomplete Multimodal Time Series](https://arxiv.org/abs/1905.13570), arXiv 2019
 
 [Learning Representations from Imperfect Time Series Data via Tensor Rank Regularization](https://arxiv.org/abs/1907.01011), ACL 2019
 
 [Multimodal Deep Learning for Robust RGB-D Object Recognition](https://arxiv.org/abs/1507.06821), IROS 2015
+
+### Analysis of Multimodal Models
+
+[Decoupling the Role of Data, Attention, and Losses in Multimodal Transformers](https://arxiv.org/abs/2102.00529), TACL 2021
+
+[Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!](https://www.aclweb.org/anthology/2020.emnlp-main.62.pdf), EMNLP 2020
+
+[Blindfold Baselines for Embodied QA](https://arxiv.org/abs/1811.05013), NIPS 2018 Visually-Grounded Interaction and Language Workshop
+
+[Analyzing the Behavior of Visual Question Answering Models](https://arxiv.org/abs/1606.07356), EMNLP 2016
 
 ### Knowledge Graphs and Knowledge Bases
 
@@ -315,6 +334,8 @@ Multimodal workshops @ ECCV 2020: [EVAL](https://askforalfred.com/EVAL/), [CAMP]
 [Zero-Shot Learning Through Cross-Modal Transfer](https://nlp.stanford.edu/~socherr/SocherGanjooManningNg_NIPS2013.pdf), NIPS 2013
 
 ### Bias and Fairness
+
+[Worst of Both Worlds: Biases Compound in Pre-trained Vision-and-Language Models](https://arxiv.org/abs/2104.08666), arXiv 2021
 
 [Towards Debiasing Sentence Representations](https://arxiv.org/abs/2007.08100), ACL 2020 [[code]](https://github.com/pliang279/sent_debias)
 
@@ -435,6 +456,10 @@ Multimodal workshops @ ECCV 2020: [EVAL](https://askforalfred.com/EVAL/), [CAMP]
 [Grounded Compositional Semantics for Finding and Describing Images with Sentences](https://nlp.stanford.edu/~socherr/SocherKarpathyLeManningNg_TACL2013.pdf), TACL 2013
 
 ### Language Grouding in Navigation
+
+[ALFWorld: Aligning Text and Embodied Environments for Interactive Learning](https://arxiv.org/abs/2010.03768), ICLR 2021 [[code]](http://alfworld.github.io/)
+
+[Hierarchical Cross-Modal Agent for Robotics Vision-and-Language Navigation](https://arxiv.org/abs/2104.10674), ICRA 2021, [[code]](https://github.com/GT-RIPL/robo-vln), [[video]](https://www.youtube.com/watch?v=y16x9n_zP_4), [[project page]](https://zubair-irshad.github.io/projects/robo-vln.html)
 
 [Improving Vision-and-Language Navigation with Image-Text Pairs from the Web](https://arxiv.org/abs/2004.14973), ECCV 2020
 
